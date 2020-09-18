@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <!-- Logo -->
+            <div class="header__logo">
+                <img class="header__logo-img" srcset="../assets/images/logo-1x.png 1x, ../assets/images/logo-2x.png 2x" alt="logo">
+            </div>
+
+            <!-- SearchBar -->
+            <div class="header__search-bar">
+                <input class="header__search-input" type="text" placeholder="Search Items">
+                <button class="header__search-btn">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="header__links">
+                <svg class="header__account">
+                    <use xlink:href="../assets/SVG/sprite.svg#icon-user"></use>   <!-- Account LOGO -->
+                </svg>
+                <svg class="header__cart">
+                    <use xlink:href="../assets/SVG/sprite.svg#icon-cart"></use>   <!-- CART LOGO -->
+                </svg>
+            </div>
+        </header>
+    </body>
+</html>
