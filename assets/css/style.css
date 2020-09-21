@@ -21,7 +21,7 @@ body {
   align-items: center;
   padding: 1rem 15rem; }
   .header__logo {
-    width: 25rem;
+    width: 20rem;
     height: auto; }
     .header__logo-img {
       width: 100%;
@@ -46,17 +46,17 @@ body {
     border-radius: 50%;
     width: 3.5rem;
     outline: none;
-    background: #f2f2f2; }
+    background: #fa9468da; }
     .header__search-btn .fa {
       font-size: 1.6rem;
-      color: #4d4d4d; }
+      color: #fff; }
   .header__links {
     display: flex;
     justify-content: center;
     align-items: center; }
     .header__links svg {
-      width: 4rem;
-      height: 4rem;
-      fill: #fa9468da; }
+      width: 3.5rem;
+      height: 3.5rem;
+      fill: #4d4d4d; }
       .header__links svg:not(:last-of-type) {
-        margin-right: 1.5rem; }
+        margin-right: 2rem; }
