@@ -15,7 +15,7 @@ body {
   font-family: 'Courier New', Courier, monospace; }
 
 .header {
-  background: linear-gradient(#eccbbe, #fff);
+  background: linear-gradient(to top, #eccbbe, #fff);
   width: 100%;
   display: flex;
   align-items: center;
@@ -54,9 +54,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    .header__links > *:not(:last-of-type) {
+      margin-right: 2rem; }
     .header__links svg {
       width: 3.5rem;
       height: 3.5rem;
       fill: #4d4d4d; }
-      .header__links svg:not(:last-of-type) {
-        margin-right: 2rem; }
+    .header__links-img {
+      position: relative; }
+  .header__notification {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translateY(-5px);
+    padding-top: .15rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 1.4em;
+    height: 1.4em;
+    background-color: #fa9468;
+    border-radius: 50%; }
+    .header__notification--account {
+      left: 60%; }
