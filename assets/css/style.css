@@ -29,17 +29,19 @@ body {
   .header__search-bar {
     display: flex;
     flex: 1;
-    margin: 0 8rem; }
+    margin: 0 8rem;
+    justify-content: center; }
   .header__search-input {
     height: 3.5rem;
     border-radius: 100px;
     padding: 0 1.75rem;
     border: none;
-    width: 100%;
+    width: 95%;
     transition: all .2s; }
     .header__search-input:focus, .header__search-input:active {
       outline: none;
-      box-shadow: 0rem 0.5rem 5rem rgba(0, 0, 0, 0.2); }
+      box-shadow: 0rem 0.5rem 5rem rgba(0, 0, 0, 0.2);
+      width: 100%; }
   .header__search-btn {
     margin-left: -3.5rem;
     border: none;
@@ -55,7 +57,7 @@ body {
     justify-content: center;
     align-items: center; }
     .header__links > *:not(:last-of-type) {
-      margin-right: 2rem; }
+      margin-right: 4rem; }
     .header__links svg {
       width: 3.5rem;
       height: 3.5rem;
