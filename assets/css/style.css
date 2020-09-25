@@ -96,39 +96,44 @@ body {
     align-items: center; }
     .categories__link:hover .fa {
       transform: translateY(5rem); }
-    .categories__link:hover ul, .categories__link > ul:hover {
+    .categories__link:hover ul, .categories__link ul > ul:hover {
       display: flex;
       animation: get-down .5s;
       animation-fill-mode: both; }
     .categories__link a {
       text-decoration-line: none;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 500;
       color: #fff;
-      padding: 1rem 0; }
+      padding: 1rem; }
     .categories__link .fa {
       color: #fff;
       font-size: 1rem;
       transition: all .2s; }
-    .categories__link:not(:last-child) {
-      margin-right: 2rem; }
     .categories__link ul {
       position: absolute;
       width: 100%;
       left: 0;
       top: 0;
       flex-direction: column;
-      background-color: orangered;
-      padding: 1rem;
+      background-color: transparent;
       animation: get-up 1s;
       animation-fill-mode: both;
       z-index: 90; }
-      .categories__link ul div {
-        max-width: 120rem;
-        margin: 0 auto; }
-      .categories__link ul li {
-        width: 15rem;
-        background-color: orchid; }
+      .categories__link ul .categories-links {
+        background-color: palegreen;
+        padding: 1rem 3rem; }
+        .categories__link ul .categories-links li {
+          margin: 5px 0; }
+        .categories__link ul .categories-links:nth-child(even) {
+          background-color: bisque; }
+        .categories__link ul .categories-links__heading {
+          font-weight: 700;
+          color: black;
+          font-size: 1.4rem; }
+        .categories__link ul .categories-links__link {
+          font-size: 1.3rem;
+          font-weight: 300; }
 
 @keyframes get-down {
   0% {
@@ -137,12 +142,12 @@ body {
   60% {
     opacity: 0; }
   100% {
-    transform: translateY(4rem);
+    transform: translateY(4.15rem);
     opacity: 1; } }
 
 @keyframes get-up {
   0% {
-    transform: translateY(4rem);
+    transform: translateY(4.15rem);
     opacity: 1; }
   20% {
     opacity: 0; }
