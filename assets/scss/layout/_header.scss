@@ -69,7 +69,7 @@
         svg {
             width: 3.5rem;
             height: 3.5rem;
-            fill: #4d4d4d;
+            fill: $color-dark;
         }
 
         &-img {
@@ -91,7 +91,7 @@
         font-weight: 600;
         width: 1.4em;
         height: 1.4em;
-        background-color:#fa9468;
+        background-color: $color-primary;
         border-radius: 50%;
 
         &--account {
