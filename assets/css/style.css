@@ -70,7 +70,6 @@ body {
     top: 0;
     left: 80%;
     transform: translateY(-5px);
-    padding-top: .15rem;
     color: #fff;
     text-align: center;
     font-size: 1.1rem;
@@ -89,17 +88,18 @@ body {
     display: flex;
     list-style: none;
     justify-content: center;
+    margin: 0;
     position: relative; }
   .categories__link {
     display: flex;
     justify-content: center;
     align-items: center; }
     .categories__link:hover .fa {
-      transform: translateY(5rem); }
-    .categories__link:hover ul, .categories__link ul > ul:hover {
+      transform: translateY(5rem);
+      opacity: 0; }
+    .categories__link:hover ul {
       display: flex;
-      animation: get-down .5s;
-      animation-fill-mode: both; }
+      transform: translateY(4.15rem); }
     .categories__link a {
       text-decoration-line: none;
       font-size: 1.5rem;
@@ -117,40 +117,22 @@ body {
       top: 0;
       flex-direction: column;
       background-color: transparent;
-      animation: get-up 1s;
-      animation-fill-mode: both;
-      z-index: 90; }
+      display: none; }
       .categories__link ul .categories-links {
-        background-color: palegreen;
+        background-color: #fff;
         padding: 1rem 3rem; }
         .categories__link ul .categories-links li {
           margin: 5px 0; }
         .categories__link ul .categories-links:nth-child(even) {
-          background-color: bisque; }
+          background-color: #f9f9f9; }
         .categories__link ul .categories-links__heading {
           font-weight: 700;
           color: black;
-          font-size: 1.4rem; }
+          font-size: 1.2rem;
+          display: inline-block;
+          margin: 1rem 0;
+          padding: 0 1rem; }
         .categories__link ul .categories-links__link {
-          font-size: 1.3rem;
-          font-weight: 300; }
-
-@keyframes get-down {
-  0% {
-    transform: translateY(-30rem);
-    opacity: 0; }
-  60% {
-    opacity: 0; }
-  100% {
-    transform: translateY(4.15rem);
-    opacity: 1; } }
-
-@keyframes get-up {
-  0% {
-    transform: translateY(4.15rem);
-    opacity: 1; }
-  20% {
-    opacity: 0; }
-  100% {
-    transform: translateY(-30rem);
-    opacity: 0; } }
+          font-size: 1.2rem;
+          font-weight: 300;
+          color: #666; }

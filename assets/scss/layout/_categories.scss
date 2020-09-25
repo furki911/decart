@@ -6,7 +6,7 @@
       display: flex;
       list-style: none;
       justify-content: center;
-      // z-index: 99;
+      margin: 0;
       
       position: relative;
    }
@@ -18,12 +18,12 @@
 
       &:hover .fa{
          transform: translateY(5rem);
+         opacity: 0;
       }
 
-      &:hover ul, & ul > ul:hover {
+      &:hover ul{
          display: flex;
-         animation: get-down .5s;
-         animation-fill-mode: both;
+         transform: translateY(4.15rem);
       }
 
       & a {
@@ -48,13 +48,11 @@
          top: 0;
          flex-direction: column;
          background-color: transparent;
-         animation: get-up 1s;
-         animation-fill-mode: both;
-         z-index: 90;
+         display: none;
 
 
          .categories-links {
-            background-color: palegreen;  
+            background-color: #fff;  
             padding: 1rem 3rem;
 
             li {
@@ -62,33 +60,24 @@
             }
             
             &:nth-child(even) {
-               background-color: bisque;  
+               background-color: #f9f9f9;  
             }
 
             &__heading {
                font-weight: 700;
                color: black;
-               font-size: 1.4rem; 
+               font-size: 1.2rem;
+               display: inline-block;
+               margin: 1rem 0;
+               padding: 0 1rem;
             }
 
             &__link {
-               font-size: 1.3rem;
+               font-size: 1.2rem;
                font-weight: 300;
-               // margin: 1rem 0;
+               color: #666;
             }
          }
       }
    }
-}
-
-@keyframes get-down {
-   0% { transform: translateY(-30rem); opacity: 0; }
-   60% { opacity: 0; }
-   100% { transform: translateY(4.15rem); opacity: 1; }
-}
-
-@keyframes get-up {
-   0% { transform: translateY(4.15rem); opacity: 1;}
-   20% { opacity: 0; }
-   100% { transform: translateY(-30rem); opacity: 0;}
 }
