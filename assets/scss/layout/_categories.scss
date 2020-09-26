@@ -23,7 +23,6 @@
       &:hover ul{
          display: flex;
          transform: translateY(2.15rem);
-         // transform: translateX(-50%);
       }
 
       & a {
@@ -53,7 +52,7 @@
 
          .categories-links {
             background-color: #fff;  
-            padding: 1rem 3rem;
+            padding: 1rem 2rem;
 
             li {
                margin: 5px 0;
@@ -70,12 +69,14 @@
                display: inline-block;
                margin: .5rem 0;
                padding-bottom: 0;
+               padding-top: 0;
             }
 
             &__link {
                font-size: 1.2rem;
                font-weight: 300;
                color: #666;
+               width: 100%;
             }
          }
       }
