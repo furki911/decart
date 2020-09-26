@@ -99,7 +99,7 @@ body {
       opacity: 0; }
     .categories__link:hover ul {
       display: flex;
-      transform: translateY(4.15rem); }
+      transform: translateY(2.15rem); }
     .categories__link a {
       text-decoration-line: none;
       font-size: 1.5rem;
@@ -112,9 +112,9 @@ body {
       transition: all .2s; }
     .categories__link ul {
       position: absolute;
-      width: 100%;
-      left: 0;
-      top: 0;
+      width: 80vw;
+      left: 10%;
+      top: 50%;
       flex-direction: column;
       background-color: transparent;
       display: none; }

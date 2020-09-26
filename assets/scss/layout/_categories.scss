@@ -7,7 +7,6 @@
       list-style: none;
       justify-content: center;
       margin: 0;
-      
       position: relative;
    }
 
@@ -23,7 +22,8 @@
 
       &:hover ul{
          display: flex;
-         transform: translateY(4.15rem);
+         transform: translateY(2.15rem);
+         // transform: translateX(-50%);
       }
 
       & a {
@@ -43,9 +43,9 @@
 
       ul {
          position: absolute;
-         width: 100%;
-         left: 0;
-         top: 0;
+         width: 80vw;
+         left: 10%;
+         top: 50%;
          flex-direction: column;
          background-color: transparent;
          display: none;
