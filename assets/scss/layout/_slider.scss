@@ -194,6 +194,11 @@
       background-image: url(https://unsplash.it/1600/800/?image=927);
       //background: #888;
     }
+    &:nth-child(4) .slider__back, &:nth-child(4) .slider__inner{
+      background-image: url('../images/image-4.jpg');
+      //background: #888;
+    }
+
   }
 
   

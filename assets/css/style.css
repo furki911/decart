@@ -298,6 +298,8 @@ body {
       background-image: url(https://unsplash.it/1600/800/?image=929); }
     .slider__slide:nth-child(3) .slider__back, .slider__slide:nth-child(3) .slider__inner {
       background-image: url(https://unsplash.it/1600/800/?image=927); }
+    .slider__slide:nth-child(4) .slider__back, .slider__slide:nth-child(4) .slider__inner {
+      background-image: url("../images/image-4.jpg"); }
 
 .sig {
   position: fixed;
