@@ -14,6 +14,10 @@
         
         <link rel="stylesheet" href="../assets/css/style.css">
 
+        <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+        <script defer src="../assets/js/slider.js"></script>
+
     </head>
     <body>
         <header class="header">
@@ -162,6 +166,35 @@
             </ul>
         </nav>
 
-        <header style="height: 90vh; background-color: orangered;"></header>
+        <div class="slider">
+            <div class="slider__slide slider__slide--active" data-slide="1">
+                <div class="slider__wrap">
+                    <div class="slider__back"></div>
+                </div>
+                <div class="slider__inner">
+                    <div class="slider__content">
+                        <h1>Slide <br> One</h1><a class="go-to-next">next</a></div>
+                </div>
+            </div>
+            <div class="slider__slide" data-slide="2">
+                <div class="slider__wrap">
+                    <div class="slider__back"></div>
+                </div>
+                <div class="slider__inner">
+                    <div class="slider__content">
+                        <h1>Slide <br> Two</h1><a class="go-to-next">next</a></div>
+                </div>
+            </div>
+            <div class="slider__slide" data-slide="3">
+                <div class="slider__wrap">
+                    <div class="slider__back"></div>
+                </div>
+                <div class="slider__inner">
+                    <div class="slider__content">
+                        <h1>Slide <br> Three</h1><a class="go-to-next">next</a></div>
+                </div>
+            </div>
+            <div class="slider__indicators"></div>
+        </div><a class="sig" href="http://nathan.tokyo" target="_blank">NATHAN.TOKYO</a>
     </body>
 </html>
