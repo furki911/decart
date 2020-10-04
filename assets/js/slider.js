@@ -12,12 +12,22 @@ function goToSlide(number){
     $('.slider__slide[data-slide='+number+']').addClass('slider__slide--active');
 }
 
-function goOn() {
+function nextSlide() {
     var currentSlide = Number($('.slider__slide--active').data('slide'));
     var totalSlides = $('.slider__slide').length;
-    currentSlide++
+    currentSlide++;
     if (currentSlide > totalSlides){
         currentSlide = 1;
+    }
+    goToSlide(currentSlide);
+}
+
+function prevSlide() {
+    var currentSlide = Number($('.slider__slide--active').data('slide'));
+    var totalSlides = $('.slider__slide').length;
+    currentSlide--;
+    if (currentSlide < 1){
+        currentSlide = totalSlides;
     }
     goToSlide(currentSlide);
 }
@@ -30,9 +40,9 @@ function goOn() {
     };     
     loop();
 })(5000, function() {
-    goOn();
+    nextSlide();
 });
 
 $('.slider__next, .go-to-next').on('click', function(){
-    goOn();
+    nextSlide();
 });
