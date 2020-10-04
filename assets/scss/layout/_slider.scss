@@ -1,6 +1,6 @@
 .slider{
   position: relative;
-  height: 80vh;
+  height: calc(100vh - calc(73.95px + 42px));
   width: 100vw;
   background: $main;
   overflow: hidden;;
@@ -51,73 +51,13 @@
   }
   
   &__content{
-    position: relative;
-    top: 50%;
-    width: auto;
-    transform: translateY(-50%);
-    color: white;
-    font-family: $heebo;
-    opacity: 0;
-    transition: opacity $time/4;
-    h1{
-      font-weight: 900;
-      font-size: $base*3;
-      line-height: 0.85;
-      margin-bottom: $base/4;
-      pointer-events: none;
-      text-shadow: 0 $base/8 $base/4 rgba(darken($accent,50%),0.1);
-    }
-    a{
-      cursor: pointer;
-      font-size: $base*0.8;
-      letter-spacing: $base*0.1;
-      font-weight: 100;
-      position: relative;
-      &:after{
-        content: '';
-        display: block;
-        width: $base*3;
-        background: white;
-        height: 1px;
-        position: absolute;
-        top: 50%;
-        left: $base*2;
-        transform: translateY(-50%);
-        transform-origin: 0% 50%;
-        transition: transform $time/2 $ease-in-out;
-      }
-      &:before{
-        content: '';
-        border-top: 1px solid white;
-        border-right: 1px solid white;
-        display: block;
-        width: $base/3;
-        height: $base/3;
-        transform: translateX(0) translateY(-50%) rotate(45deg);
-        position: absolute;
-        font-family: $heebo;
-        font-weight: 100;
-        top: 50%;
-        left: $base*5;
-        transition: transform $time/2 $ease-in-out;
-      }
-      &:hover{
-        &:after{
-          transform: scaleX(1.5);
-          transition: transform $time*2/3 $ease-in-out;
-        }
-        &:before{
-          transform: translateX(#{$base*2}) translateY(-50%) rotate(45deg);
-          transition: transform $time*2/3 $ease-in-out;
-        }
-      }
-    }
+    
   }
 
   &__slide{
     position: absolute;
     left: 0;
-    height: 100vh;
+    height: calc(100vh - calc(73.95px + 42px));
     width: 100vw;
     //transform: translatex(-100%);
     transition: transform $time/3 $ease-in-out;
@@ -184,26 +124,26 @@
     
     &:nth-child(1) .slider__back, &:nth-child(1) .slider__inner{
       background-image: url(https://unsplash.it/1600/800/?image=931);
-      //background: #eee;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     &:nth-child(2) .slider__back, &:nth-child(2) .slider__inner{
       background-image: url(https://unsplash.it/1600/800/?image=929);
-      //background: #aaa;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     &:nth-child(3) .slider__back, &:nth-child(3) .slider__inner{
       background-image: url(https://unsplash.it/1600/800/?image=927);
-      //background: #888;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     &:nth-child(4) .slider__back, &:nth-child(4) .slider__inner{
       background-image: url('../images/image-4.jpg');
-      //background: #888;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
-
-  }
-
-  
+  } 
 }
-
 
 .sig{
   position: fixed;
@@ -215,5 +155,5 @@
   font-family: sans-serif;
   color: rgba(255,255,255,0.4);
   letter-spacing: 2px;
-  z-index: 9999;
+  z-index: 3;
 }
