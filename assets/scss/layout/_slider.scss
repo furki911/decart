@@ -1,6 +1,6 @@
 .slider{
   position: relative;
-  height: calc(100vh - calc(73.95px + 42px));
+  height: calc(90vh - calc(73.95px + 42px));
   width: 100vw;
   background: $main;
   overflow: hidden;;
@@ -57,7 +57,7 @@
   &__slide{
     position: absolute;
     left: 0;
-    height: calc(100vh - calc(73.95px + 42px));
+    height: calc(90vh - calc(73.95px + 42px));
     width: 100vw;
     //transform: translatex(-100%);
     transition: transform $time/3 $ease-in-out;
@@ -76,11 +76,11 @@
       }
       .slider__back{
         filter: blur(#{$base*0.5});
-        transition: filter $time/2 $ease-in-out;
+        // transition: filter $time/2 $ease-in-out;
         transition-delay: $time/2 !important;
       }
       .slider__inner{
-        transform: scale(0.80);
+        transform: scale(1);
         box-shadow: 0 $base/3 $base*2 rgba(darken($accent,50%),0.2);
         pointer-events: auto;
         opacity: 1;

@@ -144,7 +144,7 @@ body {
 
 .slider {
   position: relative;
-  height: calc(100vh - calc(73.95px + 42px));
+  height: calc(90vh - calc(73.95px + 42px));
   width: 100vw;
   background: #777;
   overflow: hidden; }
@@ -189,7 +189,7 @@ body {
   .slider__slide {
     position: absolute;
     left: 0;
-    height: calc(100vh - calc(73.95px + 42px));
+    height: calc(90vh - calc(73.95px + 42px));
     width: 100vw;
     transition: transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
     transition-delay: 600ms;
@@ -205,10 +205,9 @@ body {
         animation: none; }
       .slider__slide--active .slider__back {
         filter: blur(1.5vh);
-        transition: filter 900ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
         transition-delay: 900ms !important; }
       .slider__slide--active .slider__inner {
-        transform: scale(0.8);
+        transform: scale(1);
         box-shadow: 0 1vh 6vh rgba(0, 0, 0, 0.2);
         pointer-events: auto;
         opacity: 1;
