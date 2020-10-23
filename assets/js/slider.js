@@ -39,7 +39,7 @@ function prevSlide() {
         setTimeout(loop, delay);
     };     
     loop();
-})(5000, function() {
+})(10000, function() {
     nextSlide();
 });
 

@@ -186,6 +186,13 @@ body {
     box-shadow: 0 3vh 3vh rgba(0, 0, 0, 0);
     padding: 15vh;
     box-sizing: border-box; }
+  .slider__content {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center; }
+    .slider__content .fa {
+      font-size: 6rem; }
   .slider__slide {
     position: absolute;
     left: 0;
