@@ -215,5 +215,41 @@
             </div>
             <div class="slider__indicators"></div>
         </section>
+
+        <section class="deals">
+            <div class="container-center">
+                <div class="deals__content">
+                    <div class="deals__top">
+                        <h3 class="deals__heading">Deals of the Day</h3>
+                        <button class="deals__button">View All</button>
+                    </div>
+                    <div class="deals__body row">
+                        <div class="col deals__card">
+                            <figure class="deals__card-image">
+
+                            </figure>
+                            <div class="deals__card-heading">
+                                
+                            </div>
+                        </div>
+                        <div class="col deals__card">
+
+                        </div>
+                        <div class="col deals__card">
+
+                        </div>
+                        <div class="col deals__card">
+
+                        </div>
+                        <div class="col deals__card">
+
+                        </div>
+                        <div class="col deals__card">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

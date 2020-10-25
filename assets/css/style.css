@@ -1,3 +1,7 @@
+.container-center {
+  max-width: 120rem;
+  margin: 0 auto; }
+
 *,
 *::before,
 *::after {
