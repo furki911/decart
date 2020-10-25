@@ -8,22 +8,22 @@
         <!-- Font Awesome CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
-        <link rel="icon" href="../assets/images/logo_basket.png" type="image/gif">
+        <link rel="icon" href="assets/images/logo_basket.png" type="image/gif">
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
         <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
-        <script defer src="../assets/js/slider.js"></script>
+        <script defer src="assets/js/slider.js"></script>
 
     </head>
     <body>
         <header class="header">
             <!-- Logo -->
             <div class="header__logo">
-                <img class="header__logo-img" srcset="../assets/images/logo-1x.png 1x, ../assets/images/logo-2x.png 2x" alt="logo">
+                <img class="header__logo-img" srcset="assets/images/logo-1x.png 1x, assets/images/logo-2x.png 2x" alt="logo">
             </div>
 
             <!-- SearchBar -->
@@ -38,13 +38,13 @@
             <div class="header__links">
                 <div class="header__links-img header__links-img-account">
                     <svg>
-                        <use xlink:href="../assets/SVG/sprite.svg#icon-user"></use>   <!-- Account LOGO -->
+                        <use xlink:href="assets/SVG/sprite.svg#icon-user"></use>   <!-- Account LOGO -->
                     </svg>
                     <span class="header__notification header__notification--account">12</span>
                 </div>
                 <div class="header__links-img header__links-img-cart">
                     <svg>
-                        <use xlink:href="../assets/SVG/sprite.svg#icon-cart"></use>   <!-- CART LOGO -->
+                        <use xlink:href="assets/SVG/sprite.svg#icon-cart"></use>   <!-- CART LOGO -->
                     </svg>
                     <span class="header__notification">7</span>
                 </div>
@@ -166,7 +166,7 @@
             </ul>
         </nav>
 
-        <div class="slider">
+        <section class="slider">
             <div class="slider__slide slider__slide--active" data-slide="1">
                 <div class="slider__wrap">
                     <div class="slider__back"></div>
@@ -214,6 +214,6 @@
                 </div>
             </div>
             <div class="slider__indicators"></div>
-        </div>
+        </section>
     </body>
 </html>
