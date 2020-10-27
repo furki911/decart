@@ -1,5 +1,5 @@
 .container-center {
-  max-width: 120rem;
+  max-width: 140rem;
   margin: 0 auto; }
 
 *,
@@ -277,3 +277,18 @@ body {
   color: rgba(255, 255, 255, 0.4);
   letter-spacing: 2px;
   z-index: 3; }
+
+.deals__content {
+  display: flex; }
+
+.deals__heading {
+  font-size: 30rem; }
+
+.deals__body {
+  display: flex; }
+
+.deals__card {
+  flex-basis: 20%; }
+  .deals__card-img img {
+    width: 100%;
+    height: 100%; }

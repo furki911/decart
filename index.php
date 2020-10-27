@@ -226,27 +226,118 @@
                     <div class="deals__body row">
                         <div class="col deals__card">
                             <figure class="deals__card-image">
-
+                                <img src="assets/images/product-2.jpg" alt="">
                             </figure>
                             <div class="deals__card-heading">
-                                
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col deals__card">
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
                             </div>
                         </div>
                         <div class="col deals__card">
-
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
                         </div>
                         <div class="col deals__card">
-
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
                         </div>
                         <div class="col deals__card">
-
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
                         </div>
                         <div class="col deals__card">
-
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
                         </div>
                         <div class="col deals__card">
-
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
                         </div>
+                        <div class="col deals__card">
+                            <figure class="deals__card-image">
+                                <img src="assets/images/product-2.jpg" alt="">
+                            </figure>
+                            <div class="deals__card-heading">
+                                <span>PlayStation 5</span>
+                            </div>
+                            <div class="deals__card-offer">
+                                <span>From &#8377;39,999</span>
+                            </div>
+                            <div class="deals__card-category">
+                                <span>Games</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

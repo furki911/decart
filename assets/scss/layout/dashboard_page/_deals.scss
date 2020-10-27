@@ -1,0 +1,46 @@
+.deals {
+
+    &__content {
+        display: flex;
+    }
+
+    &__top {
+
+    }
+
+    &__heading {
+        font-size: 30rem;;
+    }
+
+    &__button {
+
+    }
+
+    &__body {   // Flex Container
+        display: flex;
+    }
+
+    &__card {
+        flex-basis: 20%;
+
+        &-img {
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-heading {
+
+        }
+
+        &-offer {
+
+        }
+
+        &-category {
+
+        }
+    }
+}
