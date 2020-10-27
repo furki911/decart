@@ -17,6 +17,12 @@
         <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
         <script defer src="assets/js/slider.js"></script>
+        
+
+        <!-- USING this LINK tag For Development purpose only,
+         Delete it once u upload your website 
+         and link to css file normally -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css?<?php echo time(); ?>" />
 
     </head>
     <body>
@@ -211,7 +217,7 @@
                         <i onclick="prevSlide()" class="fa fa-angle-left" aria-hidden="true"></i>
                         <i onclick="nextSlide()" class="fa fa-angle-right" aria-hidden="true"></i>
                     </div>
-                </div>
+                </div>  
             </div>
             <div class="slider__indicators"></div>
         </section>
