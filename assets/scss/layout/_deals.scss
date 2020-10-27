@@ -3,33 +3,57 @@
         display: flex;
         flex-direction: column;
         padding: 8rem 0;
-        background-color: #e9e9e9;
         padding: 5rem;
     }
 
     &__top {
         display: flex;
         justify-content: space-between;
+        padding: 0 3rem;
     }
 
     &__heading {
+        color: $color-gray-dark;
+    }
+
+    &__btn {
+        text-transform: uppercase;
+        background-color: $color-primary;
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.3rem;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        transition: all .3s ease;
         
+        &:hover {
+            color: #fff;
+            box-shadow: 0 4px 6px 0 rgba(0,0,0,.12);
+            transform: translateY(-3px);
+        }
+
+        &:active {
+            transform: translateY(-1px);
+        }
     }
 
-    &__button {
-
-    }
-
-    &__body {   // Flex Container
+    &__body {
         width: max-content;
         padding: 0 5rem;
+        margin-top: 2.5rem;
     }
 
     &__card {  
         width: 23rem;
         height: min-content;
-        display: inline-block; 
-        margin: 1.5rem .5rem;
+        display: inline-block;
+        padding: 1rem 1.6rem;
+        margin: .5rem 1.2rem;
+        background-color: #fff;
+        text-align: center;
+
+        &:first-child {
+            margin-left: 0;
+        }
 
         &-image {
             width: 100%;
@@ -42,15 +66,22 @@
         }
 
         &-heading {
-
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 1.4;
+            margin-top: 1.5rem;
         }
 
         &-offer {
-
+            color: $color-green-light;
+            padding-top: .8rem;
+            line-height: 1.4;
+            font-size: 1.4rem;
         }
 
         &-category {
-
+            font-size: 1.4rem;
+            padding: .5rem 0;
         }
     }
 }

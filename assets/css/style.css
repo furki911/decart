@@ -3,7 +3,7 @@
   margin: 0 auto; }
 
 .over-scroll {
-  overflow: scroll; }
+  overflow-x: scroll; }
 
 *,
 *::before,
@@ -13,13 +13,44 @@
   box-sizing: inherit; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #e9e9e9; }
 
 html {
   font-size: 62.5%; }
 
 body {
   font-family: 'Oxygen', sans-serif; }
+
+h1 {
+  font-size: 6rem; }
+
+h2 {
+  font-size: 5rem; }
+
+h3 {
+  font-size: 4em; }
+
+h4 {
+  font-size: 3rem; }
+
+h5 {
+  font-size: 2rem; }
+
+h6 {
+  font-size: 1rem; }
+
+a, a:hover {
+  text-decoration: none;
+  color: currentColor; }
+
+.btn {
+  border: none;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 1rem 2rem; }
+  .btn:hover, .btn:active, .btn:visited, .btn:focus {
+    outline: none; }
 
 .header {
   background: linear-gradient(to top, #eccbbe, #fff);
@@ -285,22 +316,46 @@ body {
   display: flex;
   flex-direction: column;
   padding: 8rem 0;
-  background-color: #e9e9e9;
   padding: 5rem; }
 
 .deals__top {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 0 3rem; }
+
+.deals__heading {
+  color: #333; }
+
+.deals__btn {
+  text-transform: uppercase;
+  background-color: #fa9468;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all .3s ease; }
+  .deals__btn:hover {
+    color: #fff;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px); }
+  .deals__btn:active {
+    transform: translateY(-1px); }
 
 .deals__body {
   width: max-content;
-  padding: 0 5rem; }
+  padding: 0 5rem;
+  margin-top: 2.5rem; }
 
 .deals__card {
   width: 23rem;
   height: min-content;
   display: inline-block;
-  margin: 1.5rem .5rem; }
+  padding: 1rem 1.6rem;
+  margin: .5rem 1.2rem;
+  background-color: #fff;
+  text-align: center; }
+  .deals__card:first-child {
+    margin-left: 0; }
   .deals__card-image {
     width: 100%;
     height: 16rem; }
@@ -308,3 +363,16 @@ body {
       width: 100%;
       height: 100%;
       object-fit: cover; }
+  .deals__card-heading {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-top: 1.5rem; }
+  .deals__card-offer {
+    color: #388e3c;
+    padding-top: .8rem;
+    line-height: 1.4;
+    font-size: 1.4rem; }
+  .deals__card-category {
+    font-size: 1.4rem;
+    padding: .5rem 0; }
