@@ -6,9 +6,16 @@
     }
 
     &__item {
-
-        flex-basis: 33%;
+        flex-basis: 33.33%;
         padding: 1rem;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
 
         img {
             width: 100%;
