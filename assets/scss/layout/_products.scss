@@ -1,15 +1,18 @@
-.deals {
+// PRODUCTS CONTAINER AND SCROLLABLE PRODUCTS FOR DASHBOARD
+
+.products {
     &__content {
         display: flex;
         flex-direction: column;
-        padding: 8rem 0;
-        padding: 5rem;
+        padding: 5rem 2rem;
+        padding-left: 1rem;
     }
 
     &__top {
         display: flex;
         justify-content: space-between;
         padding: 0 3rem;
+        padding-right: 0;
     }
 
     &__heading {
@@ -52,7 +55,7 @@
         text-align: center;
 
         &:first-child {
-            margin-left: 0;
+            margin-left: -3.2rem;
         }
 
         &-image {
